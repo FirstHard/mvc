@@ -5,13 +5,14 @@
 		header("HTTP/1.1 403 Forbidden");
 		die('Access denied');
 
-	} else {
-		// Включение отображения всех ошибок
+	} else {
+
+		// Р’РєР»СЋС‡РµРЅРёРµ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ РІСЃРµС… РѕС€РёР±РѕРє
 		ini_set('error_reporting', E_ALL);
 		ini_set('display_errors', 1);
 		ini_set('display_startup_errors', 1);
 
-		// Код роутера
+		// РљРѕРґ СЂРѕСѓС‚РµСЂР°
 		$path = ltrim($_SERVER['REQUEST_URI'], '/');
 		$nodes = explode('/', $path);
 
