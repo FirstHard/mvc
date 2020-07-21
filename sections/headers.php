@@ -1,1 +1,2 @@
-headers
+<?php
+  echo 'headers';
