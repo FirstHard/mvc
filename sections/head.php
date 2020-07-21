@@ -1,1 +1,2 @@
-head
+<?php
+  echo 'head';
