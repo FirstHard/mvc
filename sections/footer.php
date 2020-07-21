@@ -1,1 +1,2 @@
-footer
+<?php
+  echo 'footer';
