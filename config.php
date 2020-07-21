@@ -1,11 +1,11 @@
 <?php
 
-	/*$database = array(
+	$database = array(
 			'host' => 'localhost', 	//хост бд
 			'port' => '3306',	//порт бд
-			'user' => 'root',	//логин к бд
-			'password' => '14041977',		//пароль к бд
-			'db_name' => 'hotlingerie_test'	//имя бд
-	);*/
+			'user' => '',	//логин к бд
+			'password' => '',		//пароль к бд
+			'db_name' => ''	//имя бд
+	);
 
 ?>
