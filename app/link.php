@@ -14,7 +14,7 @@
 
 		// Проверка соединения с БД
 		$mysqli = new SafeMySQL();
-	    /*$mysqli = $conn->dbase();
+	    $mysqli = $conn->dbase();
 	    if($mysqli) {
 
 		    if(is_object($mysqli)) {
@@ -23,10 +23,12 @@
 		    } else {
 		    	echo '<p>Please, call to admin! Error: ' . $mysqli . '</p>';
 		    	die;
-		    }
+		    }
+
 	    } else {
 		    echo '<p>Error! Please, call to admin!</p>';
-		    die;	    }*/
+		    die;
+	    }
 	}
 
 ?>
